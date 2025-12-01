@@ -44,7 +44,7 @@ func main() {
 		if current < 0 {
 			current += 100
 		}
-		if current == 0 || current == 100 {
+		if current == 0 {
 			zerocount++
 		}
 	}
