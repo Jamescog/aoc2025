@@ -84,7 +84,7 @@ func partTwo(inputs []int) int {
 }
 
 func main() {
-	file, err := os.Open("test.txt")
+	file, err := os.Open("input.txt")
 
 	var inputs []int
 
